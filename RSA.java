@@ -15,9 +15,9 @@ public class RSA{
     BigInteger q = BigInteger.probablePrime(N/2, random);
     BigInteger phi = (p.subtract(new BigInteger("1")).multiply(q.subtract(new BigInteger("1"))));
 
-    modulus = p.multiply(q);
-    publicKey = new BigInteger("65537");
-    privateKey = publicKey.modInverse(phi);
+    modulus = p.multiply(q); // n = pq
+    publicKey = new BigInteger("65537"); // e
+    privateKey = publicKey.modInverse(phi); // d
   }
 
   BigInteger encrypt(BigInteger message){
@@ -34,8 +34,8 @@ public class RSA{
   
   public String toString(){
     String s = "";
-    s += "public = " + publicKey + "\n";
-    s += "private = " + privateKey + "\n";
+    s += "public = " + new String(publicKey.toString(16)) + "\n";
+    s += "private = " + new String(privateKey.toString(16)) + "\n";
     s += "modulus = " + modulus;
     return s;
   }

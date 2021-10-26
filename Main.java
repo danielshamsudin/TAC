@@ -16,7 +16,7 @@ class Main {
   
   public static void main(String[] args) throws NoSuchAlgorithmException,IOException{
     File file = new File("naive.txt"); //check SHA-256 checksum for file
-    int N = 512;
+    int N = 1024;
     RSA key = new RSA(N); // generate new RSA key pair, check RSA.java for more details
     SHA256 shadigest = new SHA256(file); // retrieve SHA-256 checksum from file, check SHA256.java for more details
 
@@ -28,5 +28,6 @@ class Main {
     System.out.println("encrypted: " + new String(en.toByteArray()));
     System.out.println("decrypted: " + new String(de.toByteArray()));
     System.out.println(key.toString());
+    shadigest.printHex();
   }
 }
