@@ -1,4 +1,4 @@
-// SHA-256 Implementation by NJ
+package Src;// SHA-256 Implementation by NJ
 
 import java.math.BigInteger;
 import java.security.*; 
@@ -9,7 +9,7 @@ public class SHA256 {
     private byte[] digest;
     private String hex;
 
-    SHA256(File digestfile) throws IOException, NoSuchAlgorithmException
+    public SHA256(File digestfile) throws IOException, NoSuchAlgorithmException
     {
         FileInputStream read = new FileInputStream(digestfile);
         MessageDigest msgDigest = MessageDigest.getInstance("SHA-256");
@@ -26,7 +26,7 @@ public class SHA256 {
         hex = String.format("%064x", new BigInteger(1, digest));
     }
 
-    String returnHex() throws IOException
+    public String returnHex() throws IOException
     {
         return hex; //returns SHA-256 hash in hexadecimal string
     }

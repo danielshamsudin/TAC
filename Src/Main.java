@@ -1,16 +1,22 @@
-/* You can also make use of the crypto libraries to 
+package Src;/* You can also make use of the crypto libraries to
 perform the SHA-256 hashing. Another good resource is the 
 AMCL(Cryptographic Library) library: https://github.com/miracl/amcl/tree/master/version3/java
 */
 
+import Stuff.Sign;
+import Stuff.SignAndVerify;
+import Stuff.Verify;
+
+import java.io.File;
 import java.math.BigInteger;
-import java.security.*;  //provides methods for signing the data
-import java.io.IOException;
-import java.io.*;
 
 class Main {
-  public static void main(String[] args) throws NoSuchAlgorithmException,IOException{
-    File file = new File("naive.txt"); //check SHA-256 checksum for file
+  public static void main(String[] args) throws Exception {
+    Sign s = new Sign();
+    SignAndVerify ss = new SignAndVerify();
+    Verify sss = new Verify();
+    s.display();
+    File file = new File("Src/naive.txt"); //check SHA-256 checksum for file
     int N = 1024;
     RSA key = new RSA(N); // generate new RSA key pair, check RSA.java for more details
     SHA256 shadigest = new SHA256(file); // retrieve SHA-256 checksum from file, check SHA256.java for more details

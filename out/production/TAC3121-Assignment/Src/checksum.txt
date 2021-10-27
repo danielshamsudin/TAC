@@ -1,0 +1,10 @@
+CHECKSUM PROOF:
+
+## https://emn178.github.io/online-tools/sha256_checksum.html: eae8f6b894c78b7d9a1befee6237739addb851694d1bb6b326b00936def175b7
+
+## https://defuse.ca/checksums.htm#checksums:
+eae8f6b894c78b7d9a1befee6237739addb851694d1bb6b326b00936def175b7
+
+
+DO NOT ALTER naive.txt in any form (no additional whitespaces, etc.), this will alter the SHA256 checksum of the file!!
+
