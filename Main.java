@@ -9,11 +9,6 @@ import java.io.IOException;
 import java.io.*;
 
 class Main {
-  // public static void main(String[] args) {
-  //   System.out.println("Hi JX, Felix, NJ, Daniel! Here will be our shared code platform");
-  // }
-  // NJ was here xDDDDDDDDDDDDDD
-  
   public static void main(String[] args) throws NoSuchAlgorithmException,IOException{
     File file = new File("naive.txt"); //check SHA-256 checksum for file
     int N = 1024;
