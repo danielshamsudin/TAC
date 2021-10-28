@@ -25,11 +25,11 @@ public class RSA{
   }
 
   public BigInteger encrypt(BigInteger message){
-    return message.modPow(publicKey, modulus);
+    return message.modPow(privateKey, modulus);
   }
 
   public BigInteger decrypt(BigInteger encrypted){
-    return encrypted.modPow(privateKey, modulus);
+    return encrypted.modPow(publicKey, modulus);
   }
 
   SecureRandom getRandom(){
@@ -51,7 +51,9 @@ public class RSA{
   }
 
   public String getPrivateKey(){
-    return privKey;
+    return privateKey.toString(16);
   }
+
+  public String getModulus() { return modulus.toString(16); };
 
 }

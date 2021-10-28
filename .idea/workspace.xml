@@ -2,30 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e781f2-d7c0-434f-8d0e-3bc0cc435576" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Src/GUI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Src/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RSA.class" beforeDir="false" afterPath="$PROJECT_DIR$/Src/RSA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RSA.java" beforeDir="false" afterPath="$PROJECT_DIR$/Src/RSA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SHA256.class" beforeDir="false" afterPath="$PROJECT_DIR$/Src/SHA256.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SHA256.java" beforeDir="false" afterPath="$PROJECT_DIR$/Src/SHA256.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/RSA.java" beforeDir="false" afterPath="$PROJECT_DIR$/Src/RSA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stuff/Sign.form" beforeDir="false" afterPath="$PROJECT_DIR$/Stuff/Sign.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stuff/Sign.java" beforeDir="false" afterPath="$PROJECT_DIR$/Stuff/Sign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stuff/SignAndVerify.form" beforeDir="false" afterPath="$PROJECT_DIR$/Stuff/SignAndVerify.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stuff/SignAndVerify.java" beforeDir="false" afterPath="$PROJECT_DIR$/Stuff/SignAndVerify.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stuff/Verify.form" beforeDir="false" afterPath="$PROJECT_DIR$/Stuff/Verify.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stuff/Verify.java" beforeDir="false" afterPath="$PROJECT_DIR$/Stuff/Verify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checksum.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Src/checksum.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/naive.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Src/naive.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +19,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="206SIKlAZJ6SR9seTEeRrUCRTpP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,9 +35,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="377" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">

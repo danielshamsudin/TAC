@@ -108,16 +108,6 @@
           <text value="RSA Private Key:"/>
         </properties>
       </component>
-      <component id="5a978" class="javax.swing.JTextField" binding="SecretKey">
-        <constraints>
-          <grid row="11" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
-          </grid>
-        </constraints>
-        <properties>
-          <editable value="false"/>
-        </properties>
-      </component>
       <component id="6a6" class="javax.swing.JLabel">
         <constraints>
           <grid row="12" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
@@ -134,22 +124,6 @@
         </constraints>
         <properties>
           <editable value="false"/>
-        </properties>
-      </component>
-      <component id="54f49" class="javax.swing.JButton" binding="CopySecret">
-        <constraints>
-          <grid row="11" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Copy "/>
-        </properties>
-      </component>
-      <component id="5a091" class="javax.swing.JButton" binding="CopyPub">
-        <constraints>
-          <grid row="13" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Copy "/>
         </properties>
       </component>
       <vspacer id="b4091">
@@ -187,14 +161,6 @@
           <editable value="false"/>
         </properties>
       </component>
-      <component id="2cbfa" class="javax.swing.JButton" binding="ComputeSHA">
-        <constraints>
-          <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Compute"/>
-        </properties>
-      </component>
       <component id="653a4" class="javax.swing.JTextField" binding="Encrypted">
         <constraints>
           <grid row="16" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
@@ -203,14 +169,6 @@
         </constraints>
         <properties>
           <editable value="false"/>
-        </properties>
-      </component>
-      <component id="bd662" class="javax.swing.JButton" binding="CopyEncrypted">
-        <constraints>
-          <grid row="16" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Copy "/>
         </properties>
       </component>
       <vspacer id="daeaa">
@@ -231,12 +189,12 @@
           <text value="Generate RSA Key Pair"/>
         </properties>
       </component>
-      <component id="add9" class="javax.swing.JButton" binding="encryptButton" default-binding="true">
+      <component id="add9" class="javax.swing.JButton" binding="verifyButton" default-binding="true">
         <constraints>
           <grid row="18" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Encrypt"/>
+          <text value="Verify"/>
         </properties>
       </component>
       <vspacer id="352b4">
@@ -255,6 +213,16 @@
         <properties>
           <font name="Consolas" size="12" style="0"/>
           <text value="Designed and Programmed by Playfair, Trimester 1 2021/2022"/>
+        </properties>
+      </component>
+      <component id="312d" class="javax.swing.JTextField" binding="SecretKey">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
         </properties>
       </component>
     </children>
