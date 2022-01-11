@@ -9,3 +9,4 @@ IntelliJ -> Configuration -> Choose Src.Main
 - File Structure
 - Modules in Src directory
 - GUI in Stuff directory 
+- Test
